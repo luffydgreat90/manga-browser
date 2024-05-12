@@ -9,13 +9,12 @@ import SwiftUI
 
 struct CategoryRow: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             FieldRow(key: "Title:", value: "Kingdom")
             FieldRow(key: "Description:", value: "Kingdom Manga")
             FieldRow(key: "Updated:", value: "11/22/24")
-        }
-
-        
+        }.frame(maxWidth: .infinity,
+                alignment: .topLeading)
     }
 }
 

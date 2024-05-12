@@ -16,6 +16,8 @@ struct FieldRow: View {
             Text(key)
             Text(value)
         }
+        .frame( maxWidth: .infinity, alignment: .leading)
+        .padding(EdgeInsets(top: 0, leading: 8, bottom: 0, trailing: 8))
     }
 }
 
