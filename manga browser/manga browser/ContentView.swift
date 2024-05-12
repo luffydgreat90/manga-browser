@@ -10,13 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            List {
-                CategoryRow()
+            ScrollView {
+                LazyVStack {
+                    CategoryRow()
+                }
+            }.frame(maxWidth: .infinity,
+                    maxHeight: .infinity,
+                    alignment: .topLeading)
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("Test")
+            .toolbar {
+                Button("+") {
+                    print("About tapped!")
+                }
             }
         }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationTitle("Test")
-        .listStyle(.plain)
     }
 }
 

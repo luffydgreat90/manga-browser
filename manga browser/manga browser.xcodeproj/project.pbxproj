@@ -13,6 +13,7 @@
 		F8A513572BF0EC55002C3334 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A513562BF0EC55002C3334 /* Preview Assets.xcassets */; };
 		F8A513602BF0F2DE002C3334 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A5135F2BF0F2DE002C3334 /* CategoryRow.swift */; };
 		F8A513622BF0F47F002C3334 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A513612BF0F47F002C3334 /* FieldRow.swift */; };
+		F8A513642BF10326002C3334 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A513632BF10326002C3334 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		F8A513562BF0EC55002C3334 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8A5135F2BF0F2DE002C3334 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		F8A513612BF0F47F002C3334 /* FieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldRow.swift; sourceTree = "<group>"; };
+		F8A513632BF10326002C3334 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		F8A5135D2BF0EF09002C3334 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F8A513632BF10326002C3334 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8A513522BF0EC54002C3334 /* ContentView.swift in Sources */,
+				F8A513642BF10326002C3334 /* Category.swift in Sources */,
 				F8A513622BF0F47F002C3334 /* FieldRow.swift in Sources */,
 				F8A513602BF0F2DE002C3334 /* CategoryRow.swift in Sources */,
 				F8A513502BF0EC54002C3334 /* mangaBrowserApp.swift in Sources */,
@@ -303,7 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
